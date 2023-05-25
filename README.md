@@ -21,5 +21,11 @@ Lorsqu'un utilisateur interagit avec l'assistant vocal via l'interface frontale,
 Flask traitera ensuite la requête et l'enverra au service approprié.
 
 ### Concernant docker (commande)
-docker build . -t assistant_vocale
-docker run -p 8000:8000 assistant_vocale
+-docker build . -t assistant_vocale #aller a la ligne 
+-docker run -p 8000:8000 assistant_vocale
+
+### commande git 
+git add .
+git commit -m "message"
+git push -u
+
